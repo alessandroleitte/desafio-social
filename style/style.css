@@ -23,17 +23,18 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 311px;
-    height: 627px;
-    background: url(../images/frame-iphone.png) no-repeat top center;
+    width: 305px;
+    height: 620px;
+    background: url(../images/frame-cel.png) no-repeat top center;
 }
 
 iframe#home{
     position: absolute;
-    top: 13%;
-    left: 7.5%;
-    width: 85%;
-    height: 80%;
+    top: 2%;
+    left: 5%;
+    width: 90%;
+    height: 97%;
+    border-radius: 5%;
 }
 
 section#social-media{
@@ -41,7 +42,7 @@ section#social-media{
 }
 
 section#social-media img{
-    width: 50px;
+    width: 5%;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(175, 175, 242, 0.251);
@@ -53,3 +54,15 @@ section#social-media img:hover{
     box-shadow: 5px 5px 8px rgba(175, 175, 242, 0.251);
     transition: transform 0.5s, border 0.6s;
 }
+
+@media screen and (max-width: 700px){
+    #phone{
+        width: 250px;
+        height: 500px;
+        background: url(../images/frame-cel-pequena.png) no-repeat top center;
+    }
+    section#social-media img{
+        width: 7%;
+    }
+}
+    
